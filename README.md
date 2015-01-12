@@ -21,3 +21,7 @@ scanner(function(err, service) {
 
 ## License
 MIT
+
+### Original version
+
+This is a fork from https://github.com/xat/chromecast-scanner that scanned for Chromecast devices.
