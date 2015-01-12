@@ -1,21 +1,21 @@
 {
-  "name": "chromecast-scanner",
+  "name": "matchstick-scanner",
   "version": "0.1.0",
-  "description": "scan your local network for chromecast devices and return the first found.",
+  "description": "scan your local network for matchstick devices and return the first found.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xat/chromecast-scanner/"
+    "url": "https://github.com/soapdog/matchstick-scanner/"
   },
   "keywords": [
-    "chromecast",
+    "matchstick",
     "mdns",
     "scanner"
   ],
-  "author": "Simon Kusterer",
+  "author": "Andre Garzia",
   "license": "MIT",
   "dependencies": {
     "mdns-js": "0.2.x"

@@ -6,7 +6,7 @@ module.exports = function(opts, cb) {
     opts = {};
   }
 
-  var browser = mdns.createBrowser(mdns.tcp('googlecast'));
+  var browser = mdns.createBrowser(mdns.tcp('openflint'));
 
   var getDeviceName = function(service) {
     var device = service.txt

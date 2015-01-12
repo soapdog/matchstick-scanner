@@ -1,14 +1,14 @@
-# chromecast-scanner
+# matchstick-scanner
 
-scan your local network for chromecast devices and return the
+scan your local network for matchstick devices and return the
 first found.
 
 ### Usage
 ```javascript
-var scanner = require('chromecast-scanner');
+var scanner = require('matchstick-scanner');
 
 scanner(function(err, service) {
-  console.log('chromecast %s running on: %s:%s',
+  console.log('matchstick %s running on: %s:%s',
     service.name,
     service.address,
     service.port);
@@ -17,7 +17,7 @@ scanner(function(err, service) {
 
 ### Installation
 
-`npm install chromecast-scanner`
+`npm install matchstick-scanner`
 
 ## License
 MIT
